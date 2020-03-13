@@ -1,0 +1,12 @@
+{
+    "name": "pr-monitor",
+    "version": "1.0.0",
+    "description": "monitoring pull request on github",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["src/main.js"],
+        "persistent": true
+    },
+    "options_page": "src/options.html",
+    "manifest_version": 2
+}
